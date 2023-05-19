@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style/main.css">
+  <link rel="stylesheet" type="text/css" href="style/lightbox.css">
+  <link rel="stylesheet" type="text/css" href="style/typing.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <title>Fotograf</title>
+  <meta name="description" content="Moją pasją jest uchwycenie piękna i emocji za pomocą aparatu fotograficznego.">
+</head>
+
+<body>
+  <header class="header">
+    <div class="nav__wrapper">
+      <div class="container">
+        <span class="header__logo">LOGO</span>
+        <nav>
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#about">O mnie</a></li>
+            <li class="nav__item"><a class="nav__link" href="#portfolio">Portfolio</a></li>
+            <li class="nav__item"><a class="nav__link" href="#contact">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="header__image-wrapper">
+      <img src="images/fotograf.jpg" alt="fotograf">
+      <div class="header__image-overlay">
+        <div>
+          <h1>Cześć! Jestem <span class="typed-text"></span><span class="cursor blink">&nbsp;</span></h1>
+          <p>Moją pasją jest uchwycenie piękna i emocji za pomocą aparatu fotograficznego.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="title">O mnie</h2>
+        <div class="about__wrapper">
+          <div class="about__image">
+            <img src="images/fotograf.jpg" alt="fotograf">
+          </div>
+          <div class="about__text">
+            <p>
+              Jestem fotografem, a moją pasją jest uchwycenie piękna i emocji za pomocą aparatu fotograficznego. Moja
+              historia z fotografią rozpoczęła się wiele lat temu, kiedy odkryłem, że obrazy zatrzymują czas i
+              przypominają nam o chwilach, które przeminęły.</p>
+            <p>
+              Jako fotograf, kocham uchwycić piękno i unikalność każdej osoby, miejsca i wydarzenia. Staram się podejść
+              do każdej sesji indywidualnie, aby stworzyć obrazy, które będą doskonale oddawać emocje i wyjątkowość
+              chwili.
+            </p>
+            <p> Nie boję się eksperymentować z różnymi technikami i stylami fotografii, ale zawsze stawiam na jakość i
+              dbałość o szczegóły. Dzięki temu moje zdjęcia zawsze są pełne życia i autentyczne, zachowując jednocześnie
+              estetykę i profesjonalizm.</p>
+            <p> Jestem szczęśliwy, że mogę dzielić się swoją pasją z innymi i uchwycić niezapomniane momenty w życiu
+              moich
+              klientów. Zawsze staram się stworzyć relację opartą na zaufaniu i zrozumieniu, aby móc dostarczyć
+              najlepsze zdjęcia, które będą cieszyć oko i serce na wiele lat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <h2 class="title">Portfolio</h2>
+        <div class="portfolio__gallery">
+          <img class="lightbox" src="images/owl.jpg" alt="owl">
+          <img class="lightbox" src="images/ptak.jpg" alt="ptak">
+          <img class="lightbox" src="images/spider.jpg" alt="spider">
+          <img class="lightbox" src="images/landcsape1.jpg" alt="landcsape">
+          <img class="lightbox" src="images/road.jpg" alt="road">
+          <img class="lightbox" src="images/tulip.jpg" alt="tulip">
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="title">Kontakt</h2>
+        <div class="contact__wrapper">
+          <div class="contact__form">
+            <form>
+              <div class="input-wrapper">
+                <label for="name">Imię i nazwisko:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="input-wrapper">
+                <label for="email">Adres e-mail:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="input-wrapper">
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button class="button" type="submit">Wyślij</button>
+            </form>
+          </div>
+          <div class="contact__info">
+            <p>Adres:</p>
+            <p>ul. Przykładowa 1</p>
+            <p>00-000 Warszawa</p>
+            <p>Telefon:</p>
+            <p>+48 123 456 789</p>
+            <p>E-mail:</p>
+            <p>info@przykladowefoto.pl</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p>Copyright © 2023 - Konrad Grzyb</p>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
